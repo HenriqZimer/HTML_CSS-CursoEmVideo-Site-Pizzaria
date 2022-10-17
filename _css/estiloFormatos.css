@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+ul#pizzas{
+    width: 1700px;
+    margin: 0 auto 20px ;
+    padding: 20px;
+    overflow: 50px;
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+ul#pizzas li{
+    float: left;
+    margin: 10px;
+    background-color: #b6000000;
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+ul#sabores{
+    width: 1700px;
+    margin: 0 auto 20px ;
+    padding: 10px;
+    overflow: 50px;
+    list-style: none;
+}
+ul#sabores li{
+    float: left;
+    margin: 10px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    background-color: #b6000000;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 30px;
+    position: relative;
+}
+table#cardapio{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}

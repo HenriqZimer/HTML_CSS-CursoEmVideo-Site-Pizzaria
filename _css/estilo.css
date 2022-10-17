@@ -1,0 +1,274 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'FonteLogo';
+    src: url("../_fonts/ProductSans-BlackItalic.ttf");
+}
+@font-face{
+    font-family: 'FonteCorpo';
+    src: url("../_fonts/ProductSans-Light.ttf");
+}
+@font-face{
+    font-family: 'FonteConteudo';
+    src: url("../_fonts/ProductSans-Regular.ttf"); 
+}
+@font-face {
+    font-family: 'FonteMenu';
+    src: url("../_fonts/ProductSans-Medium.ttf");
+}
+@font-face {
+    font-family: "FonteHora";
+    src: url("../_fonts/ProductSans-Medium.ttf");
+}
+body{
+    background-color:rgb(255, 255, 255); 
+    color: rgb(255, 255, 255);  
+}
+/*formatacao inicio */
+div#interface{
+    width:99,9%;
+    margin: 10px 10px 10px 10px ;
+    box-shadow: 0px 0px 35px rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 5px;
+}
+header#cabecalho{
+    margin: 10px 10px 10px 10px;
+    border: 4px rgb(255, 0, 0) solid;
+    background: url(../_imagens/pizza.jpeg) no-repeat 0px 0px;
+    background-position: 100% -450px;
+    background-size: 100%;
+    border-radius: 8px;
+}
+header#cabecalho h1{
+    font-family: 'FonteLogo';
+    text-align: center;
+    font-size: 60px;
+    color: #000000;
+    text-shadow:3px 3px 1px rgba(253, 4, 4, 0.5);
+    margin-top: -2px;
+}
+header#cabecalho img#fotoCabecalho{
+    position: relative;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/* formatacao do menu */
+nav#menu{
+    font-family: 'FonteMenu';
+    color: #ff0000;
+    text-align: center;
+    margin-top: -30px;
+    font-weight: bold;
+}
+nav#menu ul{
+    color: #000000;
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #ff0000;
+    padding: 12px;
+    margin: 15px;
+    transition: background-color 0.5s;
+    text-decoration: none;
+    border-radius: 12px;
+    border: #000000 4px solid;
+}
+nav#menu li:hover{
+    background-color: #ffffffd2;
+    border:8px #ff0000 solid;
+    border-radius: 28px;
+    margin: -8px -8px -8px -8px;
+    transition: 0.25s;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu a{
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    font-size: 20px;
+}
+nav#menu a:hover{
+    color: rgb(0, 0, 0);
+}
+section#corpo{
+    display: block;
+    width: 70%;
+    float: left;
+    margin-top: 1px;
+    padding-right: 10px;
+}
+/*formatacao do artigo*/
+article#principal {
+    font-family: 'FonteCorpo';
+    color: #000000;
+    margin-left: 10px;
+}
+article#principal h1{
+    font-size: 80px;
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 8px;
+    text-align: center;
+    margin: 30px 80px;
+}
+article#principal h4{
+    font-size: 40px;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 30px 80px;
+}
+article#principal p{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+article#principal h5{
+    text-align: center;
+    font-size: 30px;
+}
+article#principal a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #5a5a5a8c;
+    padding: 15px;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    margin: 0 auto 20px ;
+    padding: 10px;
+    overflow: 50px;
+    list-style: none;
+}
+/* formatacao de imagens artigo*/
+li#foto img{
+    border: 6px solid rgba(255, 0, 0, 0.795);
+    box-shadow: 1px 5px 8px rgb(255, 38, 0);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*formatacao lateral*/
+aside#lateral{
+    font-family:'FonteConteudo';
+    width: 29%;
+    color: #dddddd;
+    float: right;
+    margin-left: auto;
+    margin-left: auto;
+    display: block;
+    border-left: 2px solid #000000;
+}
+img#icone{
+    position:relative;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: #ff0000 6px solid;
+    border-radius: 12px;
+}
+table#horarios{
+    font-family: "FonteHora";
+    border-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 35px;
+}
+table#horarios td{
+    color: #000000;
+    padding: 20px;
+}
+table#contato{
+    font-family: "FonteHora"; 
+    color: #000000;
+    font-size: 30px;
+}
+table#contato td{
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 10px;
+}
+table#contato td.png{
+    padding-left: 50px;
+}
+table#contato td.info{
+    padding-right: 100px;
+}
+table#contato a{
+    text-decoration: none;
+    color: #000000;
+}
+aside#lateral h4{
+    font-size: 38px;
+    text-align: center;
+    color: #ffffff;
+    margin: 40px 20px 40px 20px;
+    box-shadow: 0px 0px 35px rgba(255, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 8px;
+}
+aside#lateral p{
+    text-align: center;
+    font-size:15px;
+}
+table#insta{
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+    margin-top: -10px;
+}
+/*formatacao  fotos 360 */
+section#gmaps{
+    position: relative;
+    display: block;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+section#gmaps h4{
+    font-size: 50px;
+    margin-top: -10px;
+}
+table#cardapio img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+/*formatacao rodape*/
+footer#rodape{
+    clear: both;
+    margin: 25px 25px 25px 25px;
+    border-top: 2px #000000 solid;
+}
+footer#rodape h5{
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
+footer#rodape a{
+    color: #1c009a;
+    font-size: 17px;
+    text-decoration: none;
+}
+footer#rodape a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
