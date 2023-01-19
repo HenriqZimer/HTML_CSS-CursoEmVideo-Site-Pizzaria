@@ -26,18 +26,18 @@ body{
 /*formatacao inicio */
 div#interface{
     width:99,9%;
-    margin: 10px 10px 10px 10px ;
+    margin: 8px 8px 8px 8px ;
     box-shadow: 0px 0px 35px rgb(0, 0, 0);
     border-radius: 8px;
     padding: 5px;
 }
 header#cabecalho{
-    margin: 10px 10px 10px 10px;
-    border: 4px rgb(255, 0, 0) solid;
+    margin: 8px 8px 8px 8px;
+    border: 8px rgb(255, 0, 0) solid;
     background: url(../_imagens/pizza.jpeg) no-repeat 0px 0px;
     background-position: 100% -450px;
-    background-size: 100%;
-    border-radius: 8px;
+    background-size: 102%;
+    border-radius: 12px;
 }
 header#cabecalho h1{
     font-family: 'FonteLogo';
@@ -87,9 +87,6 @@ nav#menu li:hover{
     margin: -8px -8px -8px -8px;
     transition: 0.25s;
 }
-nav#menu h1{
-    display: none;
-}
 nav#menu a{
     color: rgb(0, 0, 0); 
     text-decoration: none;
@@ -99,9 +96,6 @@ nav#menu a:hover{
     color: rgb(0, 0, 0);
 }
 section#corpo{
-    display: block;
-    width: 70%;
-    float: left;
     margin-top: 1px;
     padding-right: 10px;
 }
@@ -109,7 +103,9 @@ section#corpo{
 article#principal {
     font-family: 'FonteCorpo';
     color: #000000;
-    margin-left: 10px;
+    /*border: #000000 3px solid;*/
+    width: 65%;
+    float: left;
 }
 article#principal h1{
     font-size: 80px;
@@ -147,7 +143,6 @@ article#principal a{
 }
 ul{
     list-style: none;
-    margin: 0 auto 20px ;
     padding: 10px;
     overflow: 50px;
     list-style: none;
@@ -163,13 +158,11 @@ li#foto img{
 /*formatacao lateral*/
 aside#lateral{
     font-family:'FonteConteudo';
-    width: 29%;
+    width: 34%;
     color: #dddddd;
     float: right;
-    margin-left: auto;
-    margin-left: auto;
-    display: block;
-    border-left: 2px solid #000000;
+    border-left: 3px black solid;
+   /* border: #000000 3px solid;*/
 }
 img#icone{
     position:relative;
@@ -187,7 +180,7 @@ table#horarios{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    font-size: 35px;
+    font-size: 200%;
 }
 table#horarios td{
     color: #000000;
