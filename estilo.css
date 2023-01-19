@@ -1,23 +1,23 @@
 @charset "UTF-8";
 @font-face{
     font-family: 'FonteLogo';
-    src: url("../_fonts/ProductSans-BlackItalic.ttf");
+    src: url("./fonts/ProductSans-BlackItalic.ttf");
 }
 @font-face{
     font-family: 'FonteCorpo';
-    src: url("../_fonts/ProductSans-Light.ttf");
+    src: url("./fonts/ProductSans-Light.ttf");
 }
 @font-face{
     font-family: 'FonteConteudo';
-    src: url("../_fonts/ProductSans-Regular.ttf"); 
+    src: url("./fonts/ProductSans-Regular.ttf"); 
 }
 @font-face {
     font-family: 'FonteMenu';
-    src: url("../_fonts/ProductSans-Medium.ttf");
+    src: url("./fonts/ProductSans-Medium.ttf");
 }
 @font-face {
     font-family: "FonteHora";
-    src: url("../_fonts/ProductSans-Medium.ttf");
+    src: url("./fonts/ProductSans-Medium.ttf");
 }
 body{
     background-color:rgb(255, 255, 255); 
@@ -34,7 +34,7 @@ div#interface{
 header#cabecalho{
     margin: 8px 8px 8px 8px;
     border: 8px rgb(255, 0, 0) solid;
-    background: url(../_imagens/pizza.jpeg) no-repeat 0px 0px;
+    background: url(../imagens/pizza.jpeg) no-repeat 0px 0px;
     background-position: 100% -450px;
     background-size: 102%;
     border-radius: 12px;
