@@ -22,15 +22,13 @@
 body{
     background-color:rgb(255, 255, 255); 
     color: rgb(255, 255, 255);  
-}
-/*formatacao inicio */
-div#interface{
-    width:99%;
+    width:98.6%;
     margin: 8px 8px 8px 8px ;
     box-shadow: 0px 0px 35px rgb(0, 0, 0);
     border-radius: 8px;
     padding: 5px;
 }
+/*formatacao inicio */
 header#cabecalho{
     margin: 8px 8px 8px 8px;
     border: 8px rgb(255, 0, 0) solid;
@@ -95,19 +93,16 @@ nav#menu a{
 nav#menu a:hover{
     color: rgb(0, 0, 0);
 }
-section#corpo{
-    margin-top: 1px;
-    padding-right: 10px;
-}
+
 /*formatacao do artigo*/
-article#principal {
+section#principal {
     font-family: 'FonteCorpo';
     color: #000000;
     /*border: #000000 3px solid;*/
     width: 65%;
     float: left;
 }
-article#principal h1{
+section#principal h1{
     font-size: 250%;
     padding: 10px;
     background-color: rgb(255, 0, 0);
@@ -115,7 +110,7 @@ article#principal h1{
     text-align: center;
     margin: 30px 80px;
 }
-article#principal h4{
+section#principal h4{
     font-size: 40px;
     background-color: rgb(255, 0, 0);
     padding: 10px;
@@ -123,17 +118,17 @@ article#principal h4{
     border-radius: 8px;
     margin: 30px 80px;
 }
-article#principal p{
+section#principal p{
     color: rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
     padding: 20px;
 }
-article#principal h5{
+section#principal h5{
     text-align: center;
     font-size: 30px;
 }
-article#principal a{
+section#principal a{
     color: #ffffff;
     text-decoration: none;
     background-color: #5a5a5a8c;
@@ -228,14 +223,14 @@ table#insta{
     margin-top: -10px;
 }
 /*formatacao  fotos 360 */
-section#gmaps{
+div#gmaps{
     position: relative;
     display: block;
     padding: 20px;
     margin-right: auto;
     margin-left: auto;
 }
-section#gmaps h4{
+div#gmaps h4{
     font-size: 50px;
     margin-top: -10px;
 }
