@@ -34,7 +34,7 @@ div#interface{
 header#cabecalho{
     margin: 8px 8px 8px 8px;
     border: 8px rgb(255, 0, 0) solid;
-    background-image: url(/imagens/pizza.png);
+    background-image: url(./imagens/pizza.png);
     background-position: 100% -450px;
     background-size: 102%;
     border-radius: 12px;
